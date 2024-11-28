@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(240, 15, 165);
+    text-align: center;
+    width: 50%;
+    top: 20%;
+    position: absolute;
+
+}
+h1, h2{
+
+    color: #303030;
+}
+input, button{
+    padding: 10px;
+    width: 95%;
+    margin: 10px 0;
+
+}
+button{
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px; 
+    color: bisque;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+    transform: translateY(-2px);
+}
+button:active{
+    background-color: red;
+    transform: translateY(2px);
+}
+p{
+    font-size: 1.2em;
+    color: #505050;
+}
